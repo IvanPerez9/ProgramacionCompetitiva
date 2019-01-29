@@ -10,7 +10,13 @@ import java.util.Scanner;
  * 
  * @author Iván - IvanPerez9
  *
+ * 	La primera línea contiene un entero T denotando el numero de casos de prueba.
+ *  Cada caso de prueba contiene solo un numero Y con el an˜o actual.
+ *  La entrada debe ser leida de forma estandar.
+ *  Para cada caso imprime un nu´mero con el siguiente anno bisiesto siguiendo las reglas del calendario gregoriano.
+ *
  */
+
 public class siguienteBisiesto {
 
 	public static void main(String[] args) {

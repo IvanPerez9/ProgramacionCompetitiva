@@ -1,7 +1,7 @@
 /**
  * 
  */
-package AceptaElReto;
+package aceptaElReto;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

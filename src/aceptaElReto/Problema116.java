@@ -1,7 +1,7 @@
 /**
  * 
  */
-package AceptaElReto;
+package aceptaElReto;
 
 import java.util.Scanner;
 
@@ -19,6 +19,7 @@ public class Problema116 {
 		for (int i = 0; i < n; i++) {
 			System.out.println("Hola mundo.");
 		}
+		entrada.close();
 	}
 	
 }

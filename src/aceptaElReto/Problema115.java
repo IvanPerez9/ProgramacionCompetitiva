@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Problema115 {
 
-	/* Acepta el reto 115
+	  /* Acepta el reto 115
 	   * 
 	   * Números enteros positivos que, al ser elevados al cuadrado, pueden descomponerse
 	   * en dos enteros positivos cuya suma es igual al número original.

@@ -53,5 +53,6 @@ public class Problema152 {
 		    System.out.println(moda);
 		    casos = entrada.nextInt();
 	    }
+	    entrada.close();
 	  }
 }

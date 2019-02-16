@@ -3,8 +3,6 @@
  */
 package aceptaElReto;
 
-import java.math.BigInteger;
-
 /**
  * @author Ivan.Perez
  *
@@ -12,10 +10,12 @@ import java.math.BigInteger;
  */
 public class Prueba {
 
-	
-	public static void main(String[] args) {
-		System.out.println(BigInteger.valueOf(0));
-	}
-	
-	
+
+	    public static void main(String[] args) {
+
+	        
+
+	    }
 }
+	
+

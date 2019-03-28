@@ -36,5 +36,6 @@ public class Problema370 {
 			}
 			System.out.println(condicion ? "SI" : "NO");
 		}
+		entrada.close();
 	}
 }

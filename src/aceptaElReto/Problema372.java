@@ -25,7 +25,6 @@ public class Problema372 {
 		  Scanner entrada = new Scanner(System.in);
 		  int n = entrada.nextInt();
 		  StringBuilder salida = new StringBuilder();
-		  String frase = entrada.nextLine();
 		    
 		  for (int i = 0; i < n; i++) {
 			  

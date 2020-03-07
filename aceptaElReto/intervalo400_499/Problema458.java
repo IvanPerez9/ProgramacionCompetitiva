@@ -15,50 +15,40 @@ public class Problema458 {
 
 	/*
 	 * En la mente del timonel - Acepta el reto 458
+	 * 
+	 * Otra forma -> adaByron_Entrenamiento3 - MenteTimonel
 	 */
 	
 	public static void main(String[] args) {
 		try(Scanner entrada = new Scanner(System.in)) {
 			int num = entrada.nextInt();
 			while (num != 0) {
-				int almacenPositivo[] = new int[num];
-				int almacenNegativo[] = new int[num];
-				int pos = 0;
-				int neg = 0;
+				int almacen[] = new int[num];
 				boolean positive = false;
 				boolean negative = false;
 				for (int i = 0; i < num; i++) {
 					int n = entrada.nextInt();
 					if (n > 0) {
-						almacenPositivo[pos++]=n;
+						almacen[i]=n;
 						positive = true;
 					} else {
-						almacenNegativo[neg++]=n;
+						almacen[i]=n;
 						negative = true;
 					}
 				}
-				Arrays.sort(almacenPositivo);
-				Arrays.sort(almacenNegativo);
+				Arrays.sort(almacen);
 				// Todos positivos, Todos negativos y mezcla
 				if (positive && !negative) {
-					System.out.println(almacenPositivo[num-1] * almacenPositivo[num-2]);
+					System.out.println(almacen[num-1] * almacen[num-2]);
 				} else if (!positive) {
-					System.out.println(almacenNegativo[0] * almacenNegativo[1]);
+					System.out.println(almacen[0] * almacen[1]);
 				} else {
-					int ret = (pos > 1) ? almacenPositivo[num-1] * almacenPositivo[num-2] : -1;
-					int ret2 = (neg > 1) ? almacenNegativo[0] * almacenNegativo[1] : -1;
-					// Si solo hay más de 1 de casa
-					if (ret == -1 && ret2 == -1) {
-						System.out.println(almacenNegativo[0] * almacenPositivo[num-1]);
-					} else {
-						System.out.println(Math.max(ret, ret2));
-					}
+					System.out.println(Math.max(almacen[0] * almacen[1], almacen[num-1] * almacen[num-2]));
 				}
 				num = entrada.nextInt();
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.out.println("Error al leer");
 		}
 	}
-	
 }

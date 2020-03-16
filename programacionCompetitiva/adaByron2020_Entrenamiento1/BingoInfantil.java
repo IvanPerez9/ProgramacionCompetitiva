@@ -17,7 +17,6 @@ public class BingoInfantil {
 
 	public static void main(String[] args) {
 		
-		
 		try(Scanner entrada = new Scanner (System.in);){
 			int num = entrada.nextInt();
 			while (num != 0) {

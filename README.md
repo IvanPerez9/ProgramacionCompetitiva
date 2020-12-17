@@ -1,5 +1,5 @@
 # ProgramacionCompetitiva
-Problemas de Acepta el Reto y curso de programacion competitiva.
+Problemas de Acepta el Reto, SPOJ, curso de programacion competitiva y otras web de problemas
 
 * __[Problemas de Acepta el Reto](https://github.com/IvanPerez9/ProgramacionCompetitiva/tree/master/aceptaElReto)__
 

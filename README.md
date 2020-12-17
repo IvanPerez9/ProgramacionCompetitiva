@@ -5,6 +5,8 @@ Problemas de Acepta el Reto y curso de programacion competitiva.
 
 * __[Problemas de SPOJ](https://github.com/IvanPerez9/ProgramacionCompetitiva/tree/master/SPOJ)__
 
+* __[Problemas de Kattis](https://github.com/IvanPerez9/ProgramacionCompetitiva/tree/master/Kattis)__
+
 * __[Problemas curso Programacion Competitiva](https://github.com/IvanPerez9/ProgramacionCompetitiva/tree/master/programacionCompetitiva)__
   * ( [Informacion del curso -> @david8k ](https://david8k.github.io/) )
 

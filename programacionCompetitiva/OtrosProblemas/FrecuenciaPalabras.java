@@ -3,6 +3,9 @@
  */
 package OtrosProblemas;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashMap;
 
 /**
@@ -12,9 +15,15 @@ import java.util.HashMap;
  */
 public class FrecuenciaPalabras {
 
-	public static void main(String[] args) {
-		String texto = "hola que tal me llamo hola hola que como estás";
-		String [] palabras = texto.split(" ");
+	public static void main(String[] args) throws IOException {
+		//String texto = "hola que tal me llamo hola hola que como estás";
+		//String [] palabras = texto.split(" ");
+		
+		
+		BufferedReader br = new BufferedReader(new FileReader("/home/ivan/GitHub/ProgramacionCompetitiva/programacionCompetitiva/OtrosProblemas/textoLeer.txt"));
+		String texto2 = br.readLine();
+		texto2 = texto2.toLowerCase();
+		String [] palabras = texto2.split(" ");
 		
 		HashMap<String, Integer> frecuencia = new HashMap<String, Integer>();
 		for (String word : palabras) {

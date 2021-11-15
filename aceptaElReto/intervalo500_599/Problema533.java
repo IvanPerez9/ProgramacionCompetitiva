@@ -3,6 +3,7 @@
  */
 package intervalo500_599;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -23,6 +24,7 @@ public class Problema533 {
 			calculoKilosBotellas(entrada);
 		}
 		entrada.close();
+		
 	}
 
 	public static void calculoKilosBotellas(Scanner entrada) {

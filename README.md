@@ -9,7 +9,7 @@
 
 
 
-# ProgramacionCompetitiva
+# 📝 Programacion Competitiva - Competitive Programming
 Problemas de Acepta el Reto, SPOJ, curso de programacion competitiva y otras web de problemas
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
@@ -26,8 +26,8 @@ Problemas de Acepta el Reto, SPOJ, curso de programacion competitiva y otras web
   * ( [Informacion del curso -> @david8k ](https://david8k.github.io/) )
 
 
-# 🌎 How to contribute to this Repository ?
+# 🌎 Como contribuir - How to contribute to this Repository ?
 
-* __[Read CONTRIBUTING.md](https://github.com/IvanPerez9/ProgramacionCompetitiva/tree/master/CONTRIBUTING.md)__
+* Head over to __[Contributing Guidelines](https://github.com/IvanPerez9/ProgramacionCompetitiva/tree/master/CONTRIBUTING.md)__ to know more!
 
 

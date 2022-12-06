@@ -26,3 +26,8 @@ Problemas de Acepta el Reto, SPOJ, curso de programacion competitiva y otras web
   * ( [Informacion del curso -> @david8k ](https://david8k.github.io/) )
 
 
+# 🌎 How to contribute to this Repository ?
+
+* __[Read CONTRIBUTING.md](https://github.com/IvanPerez9/ProgramacionCompetitiva/tree/master/CONTRIBUTING.md)__
+
+

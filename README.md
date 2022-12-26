@@ -1,7 +1,7 @@
 
 <!-- ![visitor badge](https://visitor-badge.glitch.me/badge?page_id=IvanPerez9.ProgramacionCompetitiva) -->
 
-![visitor badge](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=IvanPerez9.ProgramacionCompetitiva&color=be54c6&style=flat&logo=Github)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FIvanPerez9%2FProgramacionCompetitiva&countColor=%23ff8a65&style=flat&labelStyle=none)
 ![Manintained](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 ![GitHub last commit (master)](https://img.shields.io/github/last-commit/IvanPerez9/ProgramacionCompetitiva)
 ![Starts](https://img.shields.io/github/stars/IvanPerez9/ProgramacionCompetitiva.svg)
